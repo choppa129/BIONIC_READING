@@ -35,7 +35,7 @@
 #             rest_part = word[len(word)//2:]
 #             bionic_text.append(f"<b>{bold_part}</b>{rest_part}")
 #         else:
-#             bold_part = word[0]  # 取前一半加粗
+#             bold_part = word[0]  # first letter
 #             rest_part = word[1:]
 #             bionic_text.append(f"<b>{bold_part}</b>{rest_part}")
 #     return ' '.join(bionic_text)
